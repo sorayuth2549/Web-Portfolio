@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: palevioletred;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+li {
+    float: left;
+    background-color: #fff;
+    padding: 0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    color: white;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    font-size: 50px;
+    font-family: anantason;
+    font-style: italic;
+}
+
+.font1{
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.move1{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Times;
+    padding: 20px;
+    line-height: 1.0;
+}
+
+.font2{
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.move2{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Times;
+    padding: 20px;
+    line-height: 1.0;
+}
+
+.font3{
+    font-size: 40px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.move3{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Times;
+    padding: 20px;
+    line-height: 1.0;
+}
+
+</style>
+</head>
+<body>
+    
+<ul>
+  <li><a href="#home"><img src="home.png" height="45"width="50"></a></li>
+</ul>
+<header id="home">
+    <h1>ชุดอุปกรณ์นำทางช่วยเหลือผู้พิการทางสายตา</h1>
+</header>
+<center>
+<div>
+    <img src="pic11.png" height="400" width="500">      
+    <h2 class="font1">ที่มาเเละความสำคัญ</h2>
+    <div class="move1">
+        <p>ในปีพ.ศ.2564ทางกรมส่งเสริมเเละพัฒนาชีวิตคนพิการ พบว่าในประเทศไทยมีคนพิการทางการเห็น 9.37% ของคนพิการทั้งหมด โดยสมาชิกใน</p>
+        <p>กลุ่มของคณะผู้จัดทำได้พบเห็นผู้พิการทางการเห็นทุกวันซึ่งเราไม่สามารถดูเเลใกล้ชิดได้ตลอดเวลาเเละผู้บกพร่องต้องการช่วยเหลือตนเองให้ได้</p>
+        <p>มากที่สุดส่งผลให้เกิดการประดิษฐ์ชุดอุปกรณ์สำหรับคนพิการทางการเห็นเพื่อช่วยเหลือผู้พิการทางการเห็น</p>
+    </div>
+</div>
+<div>
+    <img src="pic12.webp" width="500" height=400">
+    <h2 class="font2">วัตถุประสงค์</h2>
+    <div class="move2">
+        <p>เพื่อช่วยเหลือผู้พิการทางสายตาให้สามารถช่วยเหลือตนเองให้ได้</p>
+        <p>มากที่สุดเเละช่วยผู้ดูเเลให้สามารถดูเเลช่วยเหลือผู้พิการทางสายตา</p>
+    </div>
+</div>
+<div>
+    <img src="pic13.jpg" width="500" height="400">
+    <h2 class="font3">องค์ประกอบ</h2>
+    <div class="move3">
+        <p>ประกอบด้วย 2 ส่วน คือ ส่วนเเรกหมวกออกเเเบบให้มีลักษณะเป็นหมวกนิรภัย</p>
+        <p>มีเเหล่งพลังงานจากเเบตเตอร์รี่ขนาด 6V microB ในตัวหมวกนั้นจะมี Arduino Nano</p>
+        <p>เป็นบอร์ดควบคุมระบบต่างๆเเละมี MPU6050 ใช้ในการวัดองศา ส่วนที่สองถุงมือติดตั้ง</p>
+        <p>Ultrasonic Sensorตรวจจับวัตถุสิ่งกีดขวาง จะส่งเสียง beep โดยระยะต่างกันความถี่จะต่างกัน</p>
+    </div>
+</div>
+<div class="back">
+<a href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="9l0" fill="currentColor" class="bi bi-rewind-circle-fill" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M7.729 5.055A.5.5 0 0 1 8 5.5v1.886l3.21-2.293A.5.5 0 0 1 12 5.5v5a.5.5 0 0 1-.79.407L8 8.614V10.5a.5.5 0 0 1-.79.407l-3.5-2.5a.5.5 0 0 1 0-.814l3.5-2.5a.5.5 0 0 1 .519-.038"/>
+  </svg></a>
+</div>
+</center>
+
+</body>
+</html>
