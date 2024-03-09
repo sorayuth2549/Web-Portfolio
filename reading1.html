@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #1f1f21;
+    --text-color:#fff;
+    --main-color: #ffae00;
+
+    --big-font: 4rem;
+    --p-font: 1.1rem;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+#contributions{
+    padding: 50px 0;
+}
+
+.container{
+    padding: 1.25rem 5%;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 40px;
+    margin-top: 70px;
+}
+
+.work-list2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.work-list3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(117,25,9,0.4),  rgba(241,142,0,1));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 15px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
+
+.layer a i{
+    margin-top: 20px;
+    color:rgb(117,25,9);
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.layer a i:hover{
+    transform: translateY(-10px);
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+.text{
+    font-size: 3.35rem;
+    margin: 23px 0;
+    background: linear-gradient(to right,#ffec41 0%,#ffae00 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.back img{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+    box-shadow: 0px 20px 40px #00000070;
+    border: 1px solid #3b3b3b;
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 0 7px;
+    transition: all o.6s ease-in-out;
+}
+
+.back img:hover{
+    transform: translateY(-10px);
+}
+
+</style>
+
+<link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<title>ระดับประเทศ</title>
+
+</head>
+<body>
+    <div id="contributions">
+        <div class="container">
+            <h1 class="text">ชุดอุปกรณ์นำทางช่วยเหลือผู้พิการทางสายตา</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pic4.webp">
+                    <div class="layer">
+                        <h3>ที่มาเเละความสำคัญ</h3>
+                        <p>
+                            ในปีพ.ศ.2564ทางกรมส่งเสริมเเละพัฒนาชีวิตคนพิการ
+                            <br>
+                            พบว่าในประเทศไทยมีคนพิการทางการเห็น 9.37% ของคนพิการทั้งหมด 
+                            <br>
+                            ของคนพิการทั้งหมดโดยสมาชิกในกลุ่มของคณะผู้จัดทำได้พบเห็นผู้พิการ
+                            <br>
+                            ทางการเห็นทุกวันซึ่งเราไม่สามารถดูเเลใกล้ชิดได้ตลอดเวลา
+                            <br>
+                            เเละผู้บกพร่องต้องการช่วยเหลือตนเองให้ได้มากที่สุดส่งผลให้
+                            <br>
+                            เกิดการประดิษฐ์ชุดอุปกรณ์สำหรับคนพิการทางการเห็นเพื่อ
+                            <br>
+                            ช่วยเหลือผู้พิการทางการเห็น
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic14.webp">
+                    <div class="layer">
+                        <h3>วัตถุประสงค์</h3>
+                        <p>
+                            เพื่อช่วยเหลือผู้พิการทางสายตาให้สามารถช่วยเหลือตนเองให้ได้ 
+                            <br>
+                            มากที่สุดเเละช่วยผู้ดูเเลให้สามารถดูเเลช่วยเหลือผู้พิการทางสายตา
+                            <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic5.webp">
+                    <div class="layer">
+                        <h3>องค์ประกอบ</h3>
+                        <p>
+                            ประกอบด้วย 2 ส่วน คือ ส่วนเเรกหมวกออกเเเบบให้มีลักษณะ 
+                            <br>
+                            เป็นหมวกนิรภัยมีเเหล่งพลังงานจากเเบตเตอร์รี่ขนาด 6V microB 
+                            <br>
+                            ในตัวหมวกนั้นจะมี Arduino Nanoเป็นบอร์ดควบคุมระบบต่างๆเเละมี 
+                            <br>
+                            MPU6050 ใช้ในการวัดองศา ส่วนที่สองถุงมือติดตั้ง Ultrasonic Sensor
+                            <br>
+                            ตรวจจับวัตถุสิ่งกีดขวาง จะส่งเสียง beep โดยระยะต่างกันความถี่จะต่างกัน
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <center>
+    <div class="back">
+        <a href="/index.html">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAATNJREFUWEft1s1Nw0AQhuHvrY0coQUOQA7QBAktIEBECFEE3EBKR5QwYGktraKs98e7xkj2NbbnyTejWaOZXczMowUU68iSUNOEzOwE+IoVyfm9uGVmtpO0lnQL3OUUHbq3CGRmD5JuvBefAh81UNkgL5m+/hPg40a5skCtMd0/SQZNgUkCmVmHfnYD3KRNfo8HE3KYN0nn3kNVZ+Zw4IKgAOYVuBw1tZGHj4JCGElXgE0KcpgXSRde4W9J979LsDZmD+yDMxRIpmUgW2Dzf0CddFYt66Ob1VD/NapkMTbdRdGzbOptHQV5gz7JeZYE8uaq/0psdshmgVxaTVHZIId6lHTtbdgz4L3GSi8CHSS1AbY1MEkfaEOFzGwFfNbCjAbVhPTvKm5ZC8ySUEqqS8tiKf0Ajdt/JbsC/14AAAAASUVORK5CYII="/>
+        </a>
+    </div>
+    </center>
+</body>
+</html>
